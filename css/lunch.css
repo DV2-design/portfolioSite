@@ -1,0 +1,30 @@
+.row__lunch--imageRow{
+  margin-bottom: 10px;
+}
+
+.col__lunch--imageContainer {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.img__lunch {
+  display: block;
+  margin:0 auto;
+  width: 90%;
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.05);
+}
+
+.text__lunch--setCaption {
+  margin-top: -10px;
+}
+
+
+
+/*
+
+ */
+
+.queryRow__lunch--sample {
+  display: none;
+}

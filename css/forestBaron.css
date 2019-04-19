@@ -1,0 +1,29 @@
+.col__forestBaron--image {
+  width: 560px;
+  display: inline-block;
+}
+
+.img__forestBaron--final {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.col__forestBaron--description {
+  width: calc(100% - 580px);
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img__forestBaron--discovery {
+  display: inline-block;
+  width: 45%;
+  margin:0 auto;
+  float: left;
+}
+
+.img__forestBaron--discoveryTop {
+  margin-right: 10px;
+}
+

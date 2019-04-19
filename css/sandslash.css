@@ -1,0 +1,37 @@
+.col__sandslash--description {
+  width: calc(100% - 520px);
+  padding-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col__sandslash--image {
+  width: 500px;
+  display: inline-block;
+}
+
+.img__sandslash--final {
+  display: block;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.img__sandslash--discovery {
+  display: inline-block;
+  width: 47%;
+  margin:0 auto;
+  float: left;
+}
+
+.img__sandslash--discoveryTop {
+  margin-right: 10px;
+}
+
+
+/*
+
+*/
+
+.queryCol__sandslash--image {
+  display: none;
+}

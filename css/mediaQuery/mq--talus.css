@@ -1,0 +1,66 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__talus--description {
+    width: 280px;
+  }
+
+  .col__talus--image {
+    width: calc(100% - 300px);
+    margin-right: 10px;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .col__talus--image {
+    width: 100%;
+  }
+  .img__talus--logo {
+    width: 100%;
+  }
+
+  .col__talus--description {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .col__talus--description {
+    width: 280px;
+    margin-top: 0;
+  }
+
+  .col__talus--image {
+    width: calc(100% - 310px);
+    margin-right: 20px;
+  }
+
+}
+
+@media screen and (max-width: 620px) {
+
+  .col__talus--image {
+    width: 100%;
+  }
+  .img__talus--logo {
+    width: 100%;
+  }
+
+  .col__talus--description {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

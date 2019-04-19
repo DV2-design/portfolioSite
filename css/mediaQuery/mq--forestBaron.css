@@ -1,0 +1,96 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__forestBaron--image {
+    width: 380px;
+  }
+
+  .col__forestBaron--description {
+    width: calc(100% - 400px);
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .col__forestBaron--image {
+    width: 100%;
+  }
+
+  .col__forestBaron--description {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .col__forestBaron--image {
+    width: 380px;
+  }
+
+  .col__forestBaron--description {
+    width: calc(100% - 400px);
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+
+  .col__forestBaron--image {
+    width: 320px;
+  }
+
+  .col__forestBaron--description {
+    width: calc(100% - 340px);
+  }
+
+
+}
+
+
+@media screen and (max-width: 620px) {
+
+
+  .col__forestBaron--image {
+    width: 100%;
+  }
+
+  .col__forestBaron--description {
+    width: 100%;
+  }
+
+  .img__forestBaron--discovery {
+    width: 48.5%;
+  }
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .img__forestBaron--discovery {
+    width: 46.5%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 380px) {
+
+  .img__forestBaron--discovery {
+    width: 100%;
+  }
+  .img__forestBaron--discoveryTop {
+    margin-bottom: 10px;
+  }
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

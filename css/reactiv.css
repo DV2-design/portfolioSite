@@ -1,0 +1,49 @@
+.col__reactiv--logo {
+  width: calc(880px - 370px);
+  display: inline-block;
+}
+
+.img__reactiv--logos {
+  display: block;
+  margin: 0 auto;
+  width: 440px;
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
+}
+
+.col__reactiv--skills {
+  display: inline-block;
+  vertical-align: top;
+  width: 290px;
+}
+
+.img__reactiv--marketingSlides {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.col__reactiv--thingsDoneDescription {
+  display: inline-block;
+  width: 400px;
+  vertical-align: top;
+}
+
+.col__reactiv--productBrochure {
+  display: inline-block;
+  width: calc(880px - 480px);
+  padding-left: 10px;
+}
+
+.img__reactiv--brochure {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/*
+
+*/
+
+.queryDiv__reactiv--topParagraph {
+  display: none;
+}

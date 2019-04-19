@@ -1,0 +1,23 @@
+.div__container--finalImage {
+  display: inline-block;
+  width: 33%;
+  vertical-align: top;
+}
+
+.img__fateForetold--finalImage {
+  display: block;
+  width: 95%;
+  margin:0 auto;
+}
+
+.col__ff--processImages {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+}
+
+.img__ff--processImage {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}

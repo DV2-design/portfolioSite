@@ -1,0 +1,80 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__reactiv--logo {
+    width: calc(880px - 490px);
+    margin-right: 20px;
+  }
+
+  .img__reactiv--logos {
+    width: 100%;
+  }
+
+  .col__reactiv--skills {
+    width: 220px;
+  }
+
+  .text__reactiv--topParagraph {
+    display: none;
+  }
+  .queryDiv__reactiv--topParagraph {
+    display: block;
+  }
+
+  .img__reactiv--marketingSlides {
+    width: 100%;
+  }
+
+  .col__reactiv--thingsDoneDescription {
+    width: 350px;
+  }
+
+  .col__reactiv--productBrochure {
+    width: calc(880px - 610px);
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .col__reactiv--logo {
+    margin-right: 0;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .col__reactiv--thingsDoneDescription {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .col__reactiv--productBrochure {
+    width: 100%;
+    padding: 0;
+  }
+
+  .img__reactiv--brochure {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+
+
+}
+
+@media screen and (max-width: 420px) {
+
+
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

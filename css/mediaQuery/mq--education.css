@@ -1,0 +1,78 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__qualityEducation--skillsPlusDescription {
+    width: 300px;
+  }
+
+  .col__qualityEducation--coverExplanation {
+    width: calc(100% - 320px);
+    margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .col__qualityEducation--skillsPlusDescription {
+    width: 100%;
+  }
+
+  .col__qualityEducation--coverExplanation {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .img__qualityEducation--pitch {
+    width:100%;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .row--pageContent {
+    padding: 0 25px;
+  }
+
+  .col__qualityEducation--skillsPlusDescription {
+    width: 47%;
+    margin-right: 5%;
+  }
+
+  .col__qualityEducation--coverExplanation {
+    width: 47%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 650px) {
+
+  .col__qualityEducation--skillsPlusDescription {
+    width: 100%;
+  }
+
+  .col__qualityEducation--coverExplanation {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+}
+
+
+@media screen and (max-width: 420px) {
+
+
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

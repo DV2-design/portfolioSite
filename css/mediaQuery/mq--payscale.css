@@ -1,0 +1,71 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .img__payscale {
+    width: 600px;
+  }
+
+  .col__payscale--projectProcess {
+    width: calc(690px - 280px);
+    padding-left: 10px;
+  }
+
+  .img__payscale--dashboard {
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .img__payscale {
+    width: 100%;
+  }
+
+  .col__payscale--projectProcess {
+    padding: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .row--pageContent {
+    padding: 0 25px;
+    width: calc(100% - 50px);
+  }
+
+  .col__payscale--projectProcess {
+    width: calc(100% - 220px);
+    margin-left: 10px;
+    margin-top: 0;
+  }
+
+  .text__payscale--secondary {
+    display: none;
+  }
+  .queryDiv__tablet--secondaryText {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 566px) {
+
+  .paragraph--top {
+    display: none;
+  }
+  .mobile__paragraph--top {
+    display: block;
+  }
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

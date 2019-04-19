@@ -1,0 +1,76 @@
+.div--iqviaImgRow {
+  width:100%;
+}
+
+.div--iqviaImgRowOne {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.div--iqviaImgRowTwo {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.img__iqvia--panel {
+  width: 49.5%;
+  display: inline-block;
+}
+
+.img__iqvia--tabletMockUp {
+  width: 370px;
+  display: block;
+  margin: 0 auto;
+}
+
+.col__iqvia--keyProjectSkills {
+  width: 200px;
+  display: inline-block;
+}
+
+.col__iqvia--projectDescription {
+  width: calc(880px - 280px);
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -5px;
+}
+
+.row--projectDescription {
+  margin-top: 20px;
+}
+
+.col__iqvia--projectProcess {
+  width: 100%;
+  display: inline-block;
+}
+
+.row__iqvia--sketchs {
+  margin-top: 20px;
+}
+
+.img__iqvia--sketch {
+  display: inline-block;
+  width: 48%;
+}
+
+.img__iqvia--component {
+  float: left;
+}
+
+.img__iqvia--timeline {
+  float: right;
+}
+
+/*
+
+
+*/
+
+.text__iqvia--customElements {
+  display: block;
+}
+.queryDiv__tablet--textDescription {
+  display: none;
+}

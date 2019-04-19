@@ -1,0 +1,51 @@
+.row--projectImage {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.img__caryOil--dashboard  {
+  display: block;
+  width: 640px;
+  margin: 0 auto;
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
+}
+
+.col__caryOil--keyProjectSkills {
+  width: 220px;
+  display: inline-block;
+}
+
+.col__caryOil--projectProcess {
+  width: calc(880px - 300px);
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -5px;
+  padding-left: 0;
+}
+
+.img__caryOil--dashboadOriginal {
+  width: calc(880px - 330px);
+  display: block;
+  margin:0 auto;
+}
+
+.div__container--pixImage {
+  width: 49.5%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img__pix {
+  display: block;
+  margin: 0 auto;
+  height: 225px;
+}
+
+.text--description {
+  margin-top: 20px;
+}
+
+.text__caryOil--topParagraph {
+  margin-top: 0;
+}

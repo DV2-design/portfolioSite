@@ -1,0 +1,53 @@
+.col__graphIcons--fullSetImage {
+  display: inline-block;
+  width: calc(50% - 42px);
+  padding: 0 20px;
+}
+
+.img__graphIcons--png,
+.img__graphIcons--svg {
+  width: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.img__graphIcons--svg {
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
+}
+
+.col__graphIcon--skills {
+  display: inline-block;
+  vertical-align: top;
+  width: 220px;
+}
+
+.col__graphIcon--description {
+  width: calc(100% - 230px);
+  display: inline-block;
+}
+
+.col__graphIconSolo {
+  display: inline-block;
+  width: 33%;
+}
+
+.img__graphIcon {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+}
+
+.text--introduction {
+  width: 800px;
+}
+
+/*
+
+*/
+
+.text__graph--secondary {
+  display: block;
+}
+.queryDiv__tablet--secondaryText {
+  display: none;
+}

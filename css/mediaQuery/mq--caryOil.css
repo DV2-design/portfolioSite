@@ -1,0 +1,94 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__caryOil--keyProjectSkills {
+    width: 220px;
+  }
+
+  .col__caryOil--projectProcess {
+    width: calc(100% - 230px);
+  }
+
+  .img__pix {
+    height: 195px;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .row--pageContent {
+    margin-top: 110px;
+  }
+
+  .img__caryOil--dashboard {
+    width: 100%;
+  }
+
+  .col__caryOil--projectProcess {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .img__pix {
+    height: 140px;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .row--pageContent {
+    margin-top: 20px;
+    padding: 0 25px;
+  }
+
+  .col__caryOil--projectProcess {
+    width: calc(100% - 230px);
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 640px) {
+
+  .col__caryOil--projectProcess {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 570px) {
+
+  .img__pix {
+    height: 120px;
+  }
+
+}
+
+@media screen and (max-width: 520px) {
+
+  .div__container--pixImage {
+    width: 100%;
+  }
+
+  .img__pix {
+    width: 100%;
+    height: auto;
+  }
+
+  .img__pix--mobile {
+    margin-top: 20px;
+  }
+
+}
+
+
+
+@media screen and (max-height: 420px) {
+
+
+
+}

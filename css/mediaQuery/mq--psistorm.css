@@ -1,0 +1,64 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .col__psistorm--iterations {
+    display: none;
+  }
+
+  .col__psistorm--skillsAndDescription {
+    width: 100%;
+  }
+
+  .col__psistorm--projectSkills,
+  .col__psistorm--cutJersey {
+    display: none;
+  }
+  .queryDiv__psistorm--skillsAndImages {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .div__col--skillsAndPrint,
+  .div__col--iterations {
+    width: 49.5%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .img__psistorm--jerseyMockup {
+    width:100%;
+    margin-top: 40px;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .div__col--skillsAndPrint,
+  .div__col--iterations {
+    display: block;
+    width: 100%;
+  }
+
+  .img__psistorm--iterations {
+    width:100%;
+  }
+
+}
+
+@media screen and (max-height: 420px) {
+
+
+
+}

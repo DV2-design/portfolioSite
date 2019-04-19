@@ -1,0 +1,89 @@
+
+
+@media screen and (max-width: 1100px) {
+
+  .text--introduction {
+    width: 100%;
+  }
+
+  .img__graphIcons--png, .img__graphIcons--svg {
+    width: 100%;
+  }
+
+  .text__graph--secondary {
+    display: none;
+  }
+  .queryDiv__tablet--secondaryText {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .row--pageContent {
+    margin-top: 110px;
+  }
+
+  .queryDiv__tablet--secondaryText {
+    margin-top: 20px;
+  }
+
+  .col__graphIconSolo {
+    width: 32%;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .row--pageContent {
+    margin-top: 20px;
+    padding: 0 25px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .col__graphIcons--fullSetImage {
+    padding: 0;
+    width: 100%;
+  }
+
+  .img__graphIcons--svg {
+    margin-top: 20px;
+  }
+
+  .col__graphIconSolo {
+    width: 100%;
+    display: block;
+  }
+
+  .img__graphIcon--chord,
+  .img__graphIcon--bar {
+    margin-top: 20px;
+  }
+
+  .img__graphIcon {
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width: 562px) {
+
+  .col__graphIcon--description {
+    display: block;
+    width: 100%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 420px) {
+
+
+
+}

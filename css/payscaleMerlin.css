@@ -1,0 +1,57 @@
+.row--projectImage {
+  width: 100%;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+.img__payscale  {
+  display: block;
+  width: 640px;
+  margin: 0 auto;
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
+}
+
+.col__payscale--keyProjectSkills {
+  width: 200px;
+  display: inline-block;
+}
+
+.col__payscale--projectProcess {
+  width: calc(880px - 280px);
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: -5px;
+}
+
+.text--description {
+  margin-top: 20px;
+}
+
+.paragraph--top {
+  margin-top: 0;
+}
+
+.div__container--furtherDescriptions {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.paragraph--sideNote {
+  font-style: italic;
+}
+
+/*
+
+*/
+
+.text__payscale--secondary {
+  display: block;
+}
+.queryDiv__tablet--secondaryText {
+  display: none;
+}
+
+.mobile__paragraph--top {
+  display: none;
+}

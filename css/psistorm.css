@@ -1,0 +1,53 @@
+.img__psistorm {
+  width: 100%;
+}
+
+.img__psistorm--jerseyMockup {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.col__psistorm--skillsAndDescription {
+  width: 500px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.col__psistorm--iterations {
+  width: calc(100% - 520px);
+  display: inline-block;
+}
+
+.img__psistorm--iterations {
+  width: 80%;
+  display: block;
+  margin:0 auto;
+}
+
+.col__psistorm--projectSkills {
+  width: 220px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col__psistorm--cutJersey {
+  width: calc(100% - 240px);
+  display: inline-block;
+}
+
+.img__psistorm--iterations {
+  box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
+}
+
+.text--jerseyPrintCaption {
+  margin-top: -10px;
+}
+
+/*
+
+ */
+
+.queryDiv__psistorm--skillsAndImages {
+  display: none;
+}

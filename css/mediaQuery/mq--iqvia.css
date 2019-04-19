@@ -1,0 +1,100 @@
+@media screen and (max-width: 1100px) {
+
+  .img__iqvia--tabletMockUp {
+    width: 300px;
+  }
+
+  .col__iqvia--projectDescription {
+    width: calc(880px - 480px);
+    padding-left: 20px;
+    margin-left: 0;
+  }
+
+}
+
+@media screen and (max-width: 920px) {
+
+  .div--iqviaImgRowOne {
+    margin-bottom: 20px;
+  }
+
+  .img__iqvia--panel {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .img__iqvia--tabletMockUp {
+    width: 420px;
+  }
+
+  .col__iqvia--keyProjectSkills {
+    width: 180px;
+  }
+
+  .col__iqvia--projectDescription {
+    width: calc(880px - 630px);
+    padding-left: 20px;
+  }
+
+  .text__iqvia--customElements {
+    display: none;
+  }
+  .queryDiv__tablet--textDescription {
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 740px) {
+
+  .img__iqvia--tabletMockUp {
+    width: 100%;
+  }
+
+  .col__iqvia--keyProjectSkills {
+    display: block;
+    width: 100%;
+  }
+
+  .list--keySkills {
+    width: calc(100% - 40px);
+  }
+
+  .col__iqvia--projectDescription {
+    width: 100%;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  .img__iqvia--sketch {
+    display: block;
+    width: 90%;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .img__iqvia--sketch {
+    display: inline-block;
+    width: 49.5%;
+    vertical-align: top;
+  }
+
+  .queryDiv__tablet--textDescription {
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (max-width: 420px) {
+
+  .img__iqvia--sketch {
+    display: block;
+    width: 100%;
+  }
+
+  .img__iqvia--component {
+    margin-bottom: 20px;
+  }
+
+}
