@@ -13,6 +13,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/sandslash.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -186,87 +187,110 @@
     </div>
   </div>
   
-  <div class="col__content">
-    
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle">Sandslash in Blue + Gold</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      
-      <div class="row--introText">
-        <p class="text--introduction">
-          A gilded take on Whistler's "Harmony in Blue + Gold."
-        </p>
-      </div>
-      
-      <div class="row--projectDescription">
-        <div class="queryCol__sandslash--image">
-          <img class="img__sandslash img__sandslash--final"
-               src="../../img/sandslash/img__sandslash--final.png"
-               alt="a gilded abstracted sandslash sits in a field of blue">
-          <p class="text--imageCaption">
-            Finished piece measuring 16" x 20".
-          </p>
+  <!-- and we start use of mini.css here -->
+  <div class=" col__content">
+
+    <div class="container">
+
+      <!-- header title -->
+      <div class="row row--pageHeader">
+        <div class="col-sm-12">
+          <h1 class="heading--pageTitle">Sandslash in Blue + Gold</h1>
         </div>
-        <div class="col__sandslash--description">
-          <div class="row__sandslash--copy">
-            <p class="text--description">
-              This piece was an experiment in material exploration. I looked to Whistler's "Peacock Room" combined with
-              contemporary pop culture subject matter for inspiration.
-            </p>
-            <p class="text--description" style="margin-top: 20px;">
-              I digitally drafted several compositions that mirrored Whistler's original,
-              but ultimately decided to make the piece have a solitary atmosphere to it through a minimal layout.
-              I transferred the pencil sketch to the painted surface with white chalk
-              before applying gold leaf to the finished piece.
-            </p>
-          </div>
-          <div class="row__sandslash--skills" style="margin-top: 20px;">
-            <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
-            <ul class="list--keySkills">
-              <li class="listItem--skill">Illustration</li>
-              <li class="listItem--skill">Painting</li>
-            </ul>
-          </div>
-          <div class="row--discoveryImages" style="margin-top: 20px;">
-            <a class="img__sandslash img__sandslash--discovery img__sandslash--discoveryTop has-lightbox" href="../../img/sandslash/img__sandslash--sketch.png" data-lightbox="sandslash" data-title="The initial pencil sketch and transferred chalk for applying adhesive." alt="The initial pencil sketch and transferred chalk for applying adhesive.">
-              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-                <img src="../../img/sandslash/img__sandslash--sketch.png" width="100%" alt="The initial pencil sketch and transferred chalk for applying adhesive."/>
-            </a> 
-            <a class="img__sandslash img__sandslash--discovery has-lightbox" href="../../img/sandslash/img__sandslash--appliedSketch.png" data-lightbox="sandslash" data-title="The initial pencil sketch and transferred chalk for applying adhesive." alt="The initial pencil sketch and transferred chalk for applying adhesive.">
-              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-                <img src="../../img/sandslash/img__sandslash--appliedSketch.png" width="100%" alt="The initial pencil sketch and transferred chalk for applying adhesive."/>
-            </a>
-            <p class="text--imageCaption">
-              The initial pencil sketch and transferred chalk for applying adhesive.
-            </p>
-          </div>
-        </div>
-        <div class="col__sandslash--image">
-          <a class="img__sandslash img__sandslash--final has-lightbox" href="../../img/sandslash/img__sandslash--final.png" data-lightbox="sandslash" data-title='Finished piece measuring 16" x 20".' alt="a gilded abstracted sandslash sits in a field of blue">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/sandslash/img__sandslash--final.png" width="100%" alt="a gilded abstracted sandslash sits in a field of blue"/>
-          </a> 
-          <p class="text--imageCaption">
-            Finished piece measuring 16" x 20".
+      </div>  
+
+      <!-- intro -->
+      <div class="row row--pageContent">
+        <div class="row--introText">
+          <p class="text--introduction">
+            A gilded take on Whistler's "Harmony in Blue + Gold."
           </p>
         </div>
       </div>
       
-      <!--
-      classes
-      
-      text--introText
-      text--imageCaption
-      text--description
-       -->
-      
+      <!-- samples -->
+      <div class="row">
+
+        <div class="col-md-12">
+          <!-- nested rows because re-arrangement on mobile -->
+          <div class="row">
+
+            <!-- finished product -->
+            <div class="col-md-7 col-md-last">
+              <a class="img__sandslash img__sandslash--final has-lightbox" href="../../img/sandslash/img__sandslash--final.png" data-lightbox="sandslash" data-title='Finished piece measuring 16" x 20".' alt="a gilded abstracted sandslash sits in a field of blue">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                  <img src="../../img/sandslash/img__sandslash--final.png" width="100%" alt="a gilded abstracted sandslash sits in a field of blue"/>
+              </a> 
+              <p class="text--imageCaption">
+                Finished piece measuring 16" x 20".
+              </p>
+            </div>
+
+            <!-- about project -->
+            <div class="col-md-5">
+              <!-- project blurb -->
+              <div class="row row__sandslash--copy">
+                <div class="col-sm-12">
+                  <p class="text--description">
+                    This piece was an experiment in material exploration. I looked to Whistler's "Peacock Room" combined with
+                    contemporary pop culture subject matter for inspiration.
+                  </p>
+                  <p class="text--description" style="margin-top: 20px;">
+                    I digitally drafted several compositions that mirrored Whistler's original,
+                    but ultimately decided to make the piece have a solitary atmosphere to it through a minimal layout.
+                    I transferred the pencil sketch to the painted surface with white chalk
+                    before applying gold leaf to the finished piece.
+                  </p>                  
+                </div>
+              </div>    
+
+              <!-- key skills -->
+              <div class="row">
+                <div class="col-sm-12 row__sandslash--skills" style="margin-top: 20px;">
+                  <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
+                  <ul class="list--keySkills">
+                    <li class="listItem--skill">Illustration</li>
+                    <li class="listItem--skill">Painting</li>
+                  </ul>
+                </div>
+              </div>
+
+              <!-- process image -->
+              <div class="row">
+                <div class="col-sm-6">
+                  <a class="img__sandslash  img__sandslash--discoveryTop has-lightbox" href="../../img/sandslash/img__sandslash--sketch.png" data-lightbox="sandslash" data-title="The initial pencil sketch and transferred chalk for applying adhesive." alt="The initial pencil sketch and transferred chalk for applying adhesive.">
+                    <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                      <img src="../../img/sandslash/img__sandslash--sketch.png" width="100%" alt="The initial pencil sketch and transferred chalk for applying adhesive."/>
+                  </a>
+                </div>
+                <!-- process image -->
+                <div class="col-sm-6">
+                  <a class="img__sandslash  has-lightbox" href="../../img/sandslash/img__sandslash--appliedSketch.png" data-lightbox="sandslash" data-title="The initial pencil sketch and transferred chalk for applying adhesive." alt="The initial pencil sketch and transferred chalk for applying adhesive.">
+                    <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                      <img src="../../img/sandslash/img__sandslash--appliedSketch.png" width="100%" alt="The initial pencil sketch and transferred chalk for applying adhesive."/>
+                  </a>
+                </div>              
+              </div>
+
+              <div class="col-sm-6">
+                <p class="text--imageCaption">
+                  The initial pencil sketch and transferred chalk for applying adhesive.
+                </p>              
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
-    <div class="row__footer">
-      <span class="span--emailContact">christopher.rinehart@cwr.design</span>
-      <span class="span--versionCount"></span>
-    </div>
+  </div>
+    
+    <!-- process and finished product -->
+
+  <div class="row__footer">
+    <span class="span--emailContact">christopher.rinehart@cwr.design</span>
+    <span class="span--versionCount"></span>
   </div>
 </div>
 

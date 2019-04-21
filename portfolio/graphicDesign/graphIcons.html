@@ -13,6 +13,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/graphIcons.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -185,46 +186,67 @@
     
     </div>
   </div>
-  
+
+  <!-- and we start use of mini.css here -->
   <div class="col__content">
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle">Graph Icons</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      <div class="row--introText">
-        <p class="text--introduction">
-          Payscale's analytics and reporting tools offer a lot of data visualizations to their users. Data sets can be vast
-          and complex, and choosing a graph or chart style may not be intuitive by name alone. I developed a set of custom icons
-          for Payscale to give users a tool for choosing their visuals.
-        </p>
+
+    <div class="container">
+
+      <!-- title -->
+      <div class="row">
+        <div class="col-sm-12 row--pageHeader">
+          <h1 class="heading--pageTitle">Graph Icons</h1>
+        </div>
       </div>
-      
-      <div class="row--projectImage" style="margin-top: 40px;">
-        <div class="col__graphIcons--fullSetImage">
+
+      <!-- subtitle -->
+      <div class="row row--pageContent">
+        <div class="col-sm-12">
+          <div class="row--introText">
+            <p class="text--introduction">
+              Payscale's analytics and reporting tools offer a lot of data visualizations to their users. Data sets can be vast
+              and complex, and choosing a graph or chart style may not be intuitive by name alone. I developed a set of custom icons
+              for Payscale to give users a tool for choosing their visuals.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- finish icons -->
+      <div class="row">
+        <!-- first -->
+        <div class="col-sm-6">
           <a class="img__graphIcons img__graphIcons--png has-lightbox" href="../../img/graphIcons/img__graphIcons--pngs.jpeg" data-lightbox="reactiv" data-title="The full set of PNG icons takes advantage of 32-bit PNG alpha channels to create icons with a smoother aesthetic." alt="set of icons depicting various graph types in png format">
             <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
               <img src="../../img/graphIcons/img__graphIcons--pngs.jpeg" width="100%" alt="set of icons depicting various graph types in png format"/>
           </a> 
+          <!-- caption -->
           <p class="text--imageCaption">
             The full set of PNG icons takes advantage of
             32-bit PNG alpha channels to create icons with a smoother aesthetic.
-          </p>
+          </p>            
         </div>
-        <div class="col__graphIcons--fullSetImage">
+
+          <!-- second -->
+        <div class="col-sm-6">
           <a class="img__graphIcons img__graphIcons--svg has-lightbox" href="../../img/graphIcons/img__graphIcons--svgs.jpeg" data-lightbox="reactiv" data-title="Flattened SVG icons offer greater versatility for style adjustments and rendering by being contained in a font file." alt="set of icons depicting various graph types in svg format">
             <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
               <img src="../../img/graphIcons/img__graphIcons--svgs.jpeg" width="100%" alt="set of icons depicting various graph types in svg format"/>
-          </a> 
+          </a>  
+          <!-- caption -->
           <p class="text--imageCaption">
             Flattened SVG icons offer greater versatility for style adjustments and rendering by being
             contained in a font file.
-          </p>
-        </div>
+          </p>                     
+        </div>          
       </div>
-      
-      <div class="row--projectDescription" style="margin-top: 40px;">
-        <div class="col__graphIcon--skills">
+
+
+      <!-- key skills and description --> 
+      <div class="row" style="margin-top: 40px;">
+
+        <!-- key skills -->
+        <div class="col-sm-3">
           <div class="col__caryOil--keyProjectSkills">
             <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
             <ul class="list--keySkills">
@@ -236,7 +258,9 @@
             </ul>
           </div>
         </div>
-        <div class="col__graphIcon--description">
+
+        <!-- description -->
+        <div class="col-sm-9">
           <p class="text--description">
             Developing the icon sets required knowing what kinds of visualizations users needed. We determined the set
             by looking at a breakdown of what charts were already in use, along with the customer feedback from alpha releases.
@@ -249,18 +273,12 @@
           </p>
         </div>
       </div>
-      
-      <div class="queryDiv__tablet--secondaryText">
-        <p class="text--description">
-          I looked at pre-existing icon libraries, but none contained all the various
-          chart types required. In order to maintain consistency across the set, I created icons from scratch,
-          looking at precedents for common graph types, or simplifying the forms of more obscure charts and testing to
-          see if they were recognizable by the customers.
-        </p>
-      </div>
-      
-      <div class="row__projectImages" style="margin-top: 40px;">
-        <div class="col__graphIconSolo">
+
+      <!-- detail shots -->
+      <div class="row" style="margin-top: 40px;">
+
+        <!-- first --> 
+        <div class="col-md-4">
           <img class="img__graphIcon img__graphIcon--sankey"
                src="../../img/graphIcons/img__graphIcons--sankey.jpg"
                alt="A close up of the sankey graph type icon" />
@@ -268,33 +286,37 @@
             A detail of the sankey icon.
           </p>
         </div>
-        <div class="col__graphIconSolo">
+
+        <!-- second -->
+        <div class="col-md-4">
           <img class="img__graphIcon img__graphIcon--chord"
                src="../../img/graphIcons/img__graphIcons--chord.jpeg"
                alt="A close up of the chord graph type icon" />
           <p class="text--imageCaption">
             A detail of the chord icon.
-          </p>
-        </div>
-        <div class="col__graphIconSolo">
+          </p>          
+        </div>        
+
+        <!-- third -->
+        <div class="col-md-4">
           <img class="img__graphIcon img__graphIcon--bar"
                src="../../img/graphIcons/img__graphIcons--bar.jpeg"
                alt="A close up of the bar graph type icon" />
           <p class="text--imageCaption">
             A detail of the bar icon.
-          </p>
+          </p>          
         </div>
       </div>
-      
-      <!--
-      classes
-      
-      text--introText
-      text--imageCaption
-      text--description
-       -->
-      
+
+
     </div>
+    <!-- done -->
+
+
+
+
+    
+
     <div class="row__footer">
       <span class="span--emailContact">christopher.rinehart@cwr.design</span>
       <span class="span--versionCount"></span>

@@ -12,7 +12,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  
+
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/reactiv.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -186,29 +187,46 @@
     </div>
   </div>
   
+  <!-- and we start use of mini.css here -->
   <div class="col__content">
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle" id="title--qvia">REACTIV</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      <div class="row--introText">
-        <p class="text--introduction">
-          REACTIV is an apparel start up created to bring new performance and recovery technology to the world of eSports.
-        </p>
+
+    <div class="container">
+
+      <!-- title -->
+      <div class="row">
+        <div class="col-sm-12 row--pageHeader">
+          <h1 class="heading--pageTitle" id="title--qvia">REACTIV</h1>
+        </div>
       </div>
-      
-      <div class="row--projectImage">
-        <div class="col__reactiv--logo">
+
+      <!-- subtitle -->
+      <div class="row row--pageContent">
+        <div class="col-sm-12">
+          <div class="row--introText">
+            <p class="text--introduction">
+              REACTIV is an apparel start up created to bring new performance and recovery technology to the world of eSports.
+            </p>
+          </div>          
+        </div>
+      </div>
+
+      <!-- logo and keyskills/description -->
+      <div class="row">
+
+        <!-- logo -->
+        <div class="col-sm-6">
           <a class="img__reactiv--logos has-lightbox" href="../../img/reactiv/img__reactiv--logos.jpeg" data-lightbox="reactiv" data-title="The logo (top) and logotype (bottom) for REACTIV." alt="company logos: a cross hair symbol and the full logotype">
             <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
               <img src="../../img/reactiv/img__reactiv--logos.jpeg" width="100%" alt="company logos: a cross hair symbol and the full logotype"/>
           </a> 
           <p class="text--imageCaption">
             The logo (top) and logotype (bottom) for REACTIV.
-          </p>
+          </p>          
         </div>
-        <div class="col__reactiv--skills">
+
+        <!-- keyskills/description -->
+        <div class="col-sm-6">
+          <!-- key skills -->
           <div class="col__caryOil--keyProjectSkills">
             <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
             <ul class="list--keySkills">
@@ -218,35 +236,36 @@
               <li class="listItem--skill">Adobe Illustrator</li>
               <li class="listItem--skill">Adobe InDesign</li>
             </ul>
-          </div>
-          <p class="text--description text__reactiv--topParagraph">
-            I helped to establish REACTIV in the middle of 2014. I led the development of the values and goals of the brand,
-            which informed the design of the logotype and the organization's visual language. The well defined edges
-            and bold color usage on bright backgrounds built a recognizable image.
-          </p>
+          </div> 
+
+          <!-- description -->
+          <div class="col__reactiv--skills">
+            <p class="text--description text__reactiv--topParagraph">
+              I helped to establish REACTIV in the middle of 2014. I led the development of the values and goals of the brand,
+              which informed the design of the logotype and the organization's visual language. The well defined edges
+              and bold color usage on bright backgrounds built a recognizable image.
+            </p>
+          </div>          
         </div>
       </div>
-      
-      <div class="queryDiv__reactiv--topParagraph">
-        <p class="text--description">
-          I helped to establish REACTIV in the middle of 2014. I led the development of the values and goals of the brand,
-          which informed the design of the logotype and the organization's visual language. The well defined edges
-          and bold color usage on bright backgrounds built a recognizable image.
-        </p>
+
+      <!-- project infographics -->
+      <div class="row" style="margin-top: 40px;">
+        <div class="col-sm-12">
+          <a class="img__reactiv img__reactiv--marketingSlides has-lightbox" href="../../img/reactiv/img__reactiv--marketingSlides.png" data-lightbox="reactiv" data-title="A selection of slides from an investor marketing slide deck." alt="A selection of slides from an investor marketing slide deck.">
+            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+              <img src="../../img/reactiv/img__reactiv--marketingSlides.png" width="100%" alt="A selection of slides from an investor marketing slide deck."/>
+          </a> 
+          <p class="text--imageCaption">
+            A selection of slides from an investor marketing slide deck.
+          </p>          
+        </div>
       </div>
-      
-      <div class="row--projectDescription" style="margin-top: 40px;">
-        <a class="img__reactiv img__reactiv--marketingSlides has-lightbox" href="../../img/reactiv/img__reactiv--marketingSlides.png" data-lightbox="reactiv" data-title="A selection of slides from an investor marketing slide deck." alt="A selection of slides from an investor marketing slide deck.">
-          <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-            <img src="../../img/reactiv/img__reactiv--marketingSlides.png" width="100%" alt="A selection of slides from an investor marketing slide deck."/>
-        </a> 
-        <p class="text--imageCaption">
-          A selection of slides from an investor marketing slide deck.
-        </p>
-      </div>
-      
-      <div class="row--projectDescription" style="margin-top: 40px;">
-        <div class="col__reactiv--thingsDoneDescription">
+
+      <!-- role description and catalog -->
+      <div class="row"  style="margin-top: 40px;">
+        <!-- things done -->
+        <div class="col-sm-5">
           <p class="text--description">
             As the Creative Director, I led a small design team of 5 people in the creation of customer facing materials such as
             marketing presentations, trade show print collateral, social media ads, promotional videos, product brochures,
@@ -256,19 +275,27 @@
             I delegated tasks and made budget-conscious decisions in order to deliver projects on time and with high fidelity.
           </p>
         </div>
-        <div class="col__reactiv--productBrochure">
-          <a class="img__reactiv img__reactiv--brochure has-lightbox" href="../../img/reactiv/img__reactiv--brochure.png" data-lightbox="reactiv" data-title="A selection of layouts from a product catalog." alt="the opening pages of the product brochure">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/reactiv/img__reactiv--brochure.png" width="100%" alt="the opening pages of the product brochure"/>
-          </a> 
-          <p class="text--imageCaption">
-            A selection of layouts from a product catalog.
-          </p>
+
+        <!-- catalog -->
+        <div class="col-sm-7">
+          <div class="col__reactiv--productBrochure">
+            <a class="img__reactiv img__reactiv--brochure has-lightbox" href="../../img/reactiv/img__reactiv--brochure.png" data-lightbox="reactiv" data-title="A selection of layouts from a product catalog." alt="the opening pages of the product brochure">
+              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                <img src="../../img/reactiv/img__reactiv--brochure.png" width="100%" alt="the opening pages of the product brochure"/>
+            </a> 
+            <p class="text--imageCaption">
+              A selection of layouts from a product catalog.
+            </p>
+          </div>          
         </div>
+
       </div>
-      
-      
+
+
+    <!-- done -->
     </div>
+
+
     <div class="row__footer">
       <span class="span--emailContact">christopher.rinehart@cwr.design</span>
       <span class="span--versionCount"></span>
