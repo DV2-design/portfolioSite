@@ -3,7 +3,9 @@
 p {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6em;
+  line-height: 1.7em;
+  margin-block-start: 0;
+  margin-bottom: 10px;
 }
 
 body {
@@ -148,7 +150,7 @@ body {
   height: 110px;
   z-index: 499;
   width: 855px;
-  background-color: #FAFAFA;
+  background-color: #FAFAFAf2;
 }
 
 .row--pageContent {
@@ -234,8 +236,8 @@ body {
   margin-left: -25px;
   padding-top: 10px;
   padding-bottom: 11px;
-  /*background-color: #ffffff;*/
-  background-color: rgba(250,250,250,0.7);
+  background-color: #FAFAFAf2;
+  /*background-color: rgba(250,250,250,0.7);*/
   z-index: 500;
   /*box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.02);*/
 }
@@ -261,17 +263,18 @@ body {
 /*
  *  project description
  */
-.text--description {
-  margin: 0;
-  text-align: justify;
-}
+/*.text--description {*/
+  /*margin: 0;*/
+  /*text-align: justify;*/
+/*}*/
 
 .heading__list--keyProjectSkills {
   margin: 0;
   /*line-height: 25px;*/
   font-weight: 500;
   font-size: 400;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .list--keySkills {
