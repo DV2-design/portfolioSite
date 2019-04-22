@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1260px) {
 
   .div__container {
     width: 900px;
@@ -8,7 +8,7 @@
   }
 
   .row--pageHeader {
-    width: 675px;
+    width: 647px;
   }
 
   .row__footer {
@@ -25,7 +25,7 @@
   }
 
   .row--pageHeader {
-    width: 495px;
+    width: 465px;
   }
 
   .row__footer {
@@ -87,7 +87,7 @@
 
   .heading--pageTitle {
     margin-top: 10px;
-    margin-left: 25px;
+    /*margin-left: 25px;*/
     margin-bottom: 15px;
   }
 

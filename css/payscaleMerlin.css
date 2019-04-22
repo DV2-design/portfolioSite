@@ -12,13 +12,13 @@
 }
 
 .col__payscale--keyProjectSkills {
-  width: 200px;
+  /*width: 200px;*/
   display: inline-block;
 }
 
 .col__payscale--projectProcess {
-  width: calc(880px - 280px);
-  margin-left: 10px;
+  /*width: calc(880px - 280px);*/
+  /*margin-left: 10px;*/
   display: inline-block;
   vertical-align: top;
   margin-top: -5px;

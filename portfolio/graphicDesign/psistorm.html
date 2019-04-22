@@ -5,7 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>CWR Design - PSISTORM jersey</title>
   <meta name="description" content="
-      Designing visual identities for ideas.
+      Designing visual identities for interfaces.
       The design portfolio of Christopher Rinehart, a graphic designer and front end developer with experience
       working with SaaS applications and visual brand development.
     ">
@@ -13,6 +13,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/psistorm.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -185,111 +186,134 @@
     
     </div>
   </div>
-  
+
+
+  <!-- and we start use of mini.css here -->
   <div class="col__content">
     
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle">PSISTORM Gaming Jersey</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      
-      <div class="row--introText">
-        <p class="text--introduction">
-          The Starcraft 2 team, PSISTORM, needed a team jersey for their appearance at Blizzcon 2016.
-        </p>
+    <div class="container">
+
+      <!-- title -->
+      <div class="row">
+        <div class="col-sm-12 row--pageHeader">
+          <h1 class="heading--pageTitle">PSISTORM Gaming Jersey</h1>
+        </div>
       </div>
-      
-      <div class="row--projectImage">
-        <a class="img__psistorm img__psistorm--jerseyMockup has-lightbox" href="../../img/psistorm/img__psistorm--jerseyMockup.png" data-lightbox="psistorm" data-title="Mockup of selected jersey." alt="the jersey mockup with a basic rendering of the front and back">
-          <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-            <img src="../../img/psistorm/img__psistorm--jerseyMockup.png" width="100%" alt="the jersey mockup with a basic rendering of the front and back"/>
-        </a>
-        <p class="text--imageCaption">
-          Mockup of selected jersey.
-        </p>
+
+      <!-- subtitle -->
+      <div class="row">
+        <div class="col-sm-12 row--pageContent">
+          <div class="row--introText">
+            <p class="text--introduction">
+              The Starcraft 2 team, PSISTORM, needed a team jersey for their appearance at Blizzcon 2016.
+            </p>
+          </div>          
+        </div>
       </div>
-      
-      <div class="row--projectDescription" style="margin-top: 40px;">
-        <div class="col__psistorm--skillsAndDescription">
-          <p class="text--description">
-            Designing the jersey for PSISTORM was one of the highlights of my time at REACTIV. I met with the
-            team founder and owner, along with the team manager, to get a better understanding of the organization's
-            culture. We went through several rounds of critiques before settling on a design backed by both
-            the players and management.
+
+      <!-- finished jersey -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row--projectImage">
+            <a class="img__psistorm img__psistorm--jerseyMockup has-lightbox" href="../../img/psistorm/img__psistorm--jerseyMockup.png" data-lightbox="psistorm" data-title="Mockup of selected jersey." alt="the jersey mockup with a basic rendering of the front and back">
+              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                <img src="../../img/psistorm/img__psistorm--jerseyMockup.png" width="100%" alt="the jersey mockup with a basic rendering of the front and back"/>
+            </a>
+
+          </div>          
+        </div>
+      </div>
+
+      <!-- caption -->
+      <div class="row">
+        <div class="col-sm-12">
+          <p class="text--imageCaption">
+            Mockup of selected jersey.
           </p>
-          <div class="row--projectDescription" style="margin-top: 20px;">
-            <div class="col__psistorm--projectSkills">
-              <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
-              <ul class="list--keySkills">
-                <li class="listItem--skill">Graphic Design</li>
-                <li class="listItem--skill">Visual Development</li>
-                <li class="listItem--skill">Adobe Photoshop</li>
-                <li class="listItem--skill">Adobe Illustrator</li>
-              </ul>
-            </div>
-            <div class="col__psistorm--cutJersey">
-              <a class="img__psistorm img__psistorm--cutJersey has-lightbox" href="../../img/psistorm/img__psistorm--jerseyCut.png" data-lightbox="psistorm" data-title="Print layout for approved design." alt="print layout for the jersey">
-                <img style="position: absolute; right: 10px;" src="../../img/lightbox/indicator.png"/>
-                  <img src="../../img/psistorm/img__psistorm--jerseyMockup.png" width="100%" alt="print layout for the jersey"/>
-              </a> 
-              <p class="text--imageCaption text--jerseyPrintCaption">
-                Print layout for approved design.
+        </div>
+      </div>
+
+      <!-- description, key skills, finished project and draft images -->
+      <div class="row row--projectDescription" style="margin-top: 40px;">
+        <!-- description, key skills -->
+        <div class="col-sm-6">
+
+          <!-- descrption -->
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text--description">
+                Designing the jersey for PSISTORM was one of the highlights of my time at REACTIV. I met with the
+                team founder and owner, along with the team manager, to get a better understanding of the organization's
+                culture. We went through several rounds of critiques before settling on a design backed by both
+                the players and management.
               </p>
             </div>
           </div>
+
+          <!-- key skills and finished project -->
+          <div class="row" style="margin-top: 20px;">
+
+            <!-- key skills -->
+            <div class="col-sm-6 col-lg-6 ">  
+              <div class="col__psistorm--projectSkills">
+                <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
+                <ul class="list--keySkills">
+                  <li class="listItem--skill">Graphic Design</li>
+                  <li class="listItem--skill">Visual Development</li>
+                  <li class="listItem--skill">Adobe Photoshop</li>
+                  <li class="listItem--skill">Adobe Illustrator</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- finished project -->
+            <div class="col-sm-12 col-lg-6">
+              <a class="img__psistorm img__psistorm--cutJersey has-lightbox" href="../../img/psistorm/img__psistorm--jerseyCut.png" data-lightbox="psistorm" data-title="Print layout for approved design." alt="print layout for the jersey">
+                  <img class="lightbox-icon" src="../../img/lightbox/indicator-forDarkImages.png"/>
+                  <img src="../../img/psistorm/img__psistorm--jerseyMockup.png" width="100%" alt="print layout for the jersey"/>
+              </a> 
+            </div>
+          </div>
+
+          <!-- caption -->
+          <div class="row">
+            <div class="col-sm-12 col-lg-6 col-lg-offset-6">
+              <p class="text--imageCaption text--jerseyPrintCaption">
+                Print layout for approved design.
+              </p>
+            </div>            
+          </div>
+
         </div>
-        <div class="col__psistorm--iterations">
-          <a class="img__psistorm img__psistorm--iterations has-lightbox" href="../../img/psistorm/img__psistorm--iterations.png" data-lightbox="psistorm" data-title="Set of other finalist iterations." alt="a small set of all finalist iterations for the jersey">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/psistorm/img__psistorm--iterations.png" width="100%" alt="a small set of all finalist iterations for the jersey"/>
-          </a> 
-          <p class="text--imageCaption">
-            Set of other finalist iterations.
-          </p>
+
+        <!-- drafts images-->
+        <div class="col-sm-6">
+          <!-- images -->
+          <div class="row">
+            <div class="col-sm-12 ">
+              <a class="img__psistorm img__psistorm--iterations has-lightbox" href="../../img/psistorm/img__psistorm--iterations.png" data-lightbox="psistorm" data-title="Set of other finalist iterations." alt="a small set of all finalist iterations for the jersey">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                <img src="../../img/psistorm/img__psistorm--iterations.png" width="100%" alt="a small set of all finalist iterations for the jersey"/>
+              </a>               
+            </div>
+          </div>
+
+          <!-- caption -->
+          <div class="row">
+            <div class="col-sm-9 col-md-12 psi_offset">
+              <p class="text--imageCaption">
+                Set of other finalist iterations.
+              </p>              
+            </div>
+          </div>          
+
         </div>
       </div>
-      
-      <div class="queryDiv__psistorm--skillsAndImages">
-        <div class="div__col--skillsAndPrint">
-          <div>
-            <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
-            <ul class="list--keySkills">
-              <li class="listItem--skill">Graphic Design</li>
-              <li class="listItem--skill">Visual Development</li>
-              <li class="listItem--skill">Adobe Photoshop</li>
-              <li class="listItem--skill">Adobe Illustrator</li>
-            </ul>
-          </div>
-          <div>
-            <img class="img__psistorm img__psistorm--cutJersey"
-                 src="../../img/psistorm/img__psistorm--jerseyCut.png"
-                 alt="print layout for the jersey" >
-            <p class="text--imageCaption text--jerseyPrintCaption">
-              Print layout for approved design.
-            </p>
-          </div>
-        </div>
-        <div class="div__col--iterations">
-          <img class="img__psistorm img__psistorm--iterations"
-               src="../../img/psistorm/img__psistorm--iterations.png"
-               alt="a small set of all finalist iterations for the jersey">
-          <p class="text--imageCaption">
-            Set of other finalist iterations.
-          </p>
-        </div>
-      </div>
-      
-      
-      <!--
-      classes
-      
-      text--introText
-      text--imageCaption
-      text--description
-       -->
-      
+
+
     </div>
+    <!-- done -->
+
     <div class="row__footer">
       <span class="span--emailContact">christopher.rinehart@cwr.design</span>
       <span class="span--versionCount"></span>

@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1260px) {
 
   .col__sandslash--description {
     width: calc(100% - 380px);
@@ -24,6 +24,9 @@
   }
   .col__sandslash--image {
     display: none;
+  }
+  .sand_caption {
+    margin-top:20px;
   }
 
 }

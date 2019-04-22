@@ -5,7 +5,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>CWR Design - Quality Education Book Cover</title>
   <meta name="description" content="
-      Designing visual identities for ideas.
+      Designing visual identities and interfaces.
       The design portfolio of Christopher Rinehart, a graphic designer and front end developer with experience
       working with SaaS applications and visual brand development.
     ">
@@ -13,6 +13,7 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/qualityEducation.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -185,79 +186,126 @@
     
     </div>
   </div>
-  
+
+  <!-- and we start use of mini.css here -->
   <div class="col__content">
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle">Quality Education Book Cover</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      <div class="row--introText">
-        <p class="text--introduction">
-          Science-Fiction author, Gray Rinehart, commissioned a new cover for the revised
-          twentieth anniversary edition of his book,
-          <span class="span--bookTitle">Quality Education</span>.
-        </p>
-      </div>
-      
-      <div class="row--projectImage">
-        <a class="img__qualityEducation img__qualityEducation--fullCover has-lightbox" href="../../img/qualityEducation/img__qualityEducation--fullCover.png" data-lightbox="qualityEducation" data-title="Full bleed cover for Quality Education." alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools">
-          <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-            <img src="../../img/qualityEducation/img__qualityEducation--fullCover.png" width="100%" alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools"/>
-        </a>
-        <p class="text--imageCaption">
-        Full bleed cover for <span class="span--bookTitle">Quality Education</span>.
-        </p>
-      </div>
-      
-      <div class="row--projectDescription" style="margin-top: 40px;">
-        <div class="col__qualityEducation--skillsPlusDescription">
-          <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
-          <ul class="list--keySkills">
-            <li class="listItem--skill">Graphic Design</li>
-            <li class="listItem--skill">Visual Development</li>
-            <li class="listItem--skill">Adobe Photoshop</li>
-            <li class="listItem--skill">Adobe Illustrator</li>
-            <li class="listItem--skill">Adobe InDesign</li>
-          </ul>
-          <p class="text--description">
-            I presented designs that explored the author's suggestions along with ideas based on my own interpretations
-            from excerpts of the text and conversational anecdotes.
-            
-            Since the book was going to be present online as well as on store shelves,
-            the final design uses bold text and strong color to catch the eye while quickly scrolling online,
-            while subtle blueprints tell a deeper story and reward exploration for printed copies.
-            The book debuted in the Top 10 on Amazon's Education book list.
-          </p>
-        </div>
-        <div class="col__qualityEducation--coverExplanation">
-      
-          <a class="img__qualityEducation--pitch img__qualityEducation--explanation has-lightbox" href="../../img/qualityEducation/img__qualityEducation--pitch02.png" data-lightbox="qualityEducation" data-title="Presentation slides breaking down my interpretation of the text and highlighting the elements of the design." alt="presentation slide">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/qualityEducation/img__qualityEducation--pitch02.png" width="100%" alt="presentation slide"/>
-          </a> 
-          <a class="img__qualityEducation--pitch img__qualityEducation--designDetails has-lightbox" href="../../img/qualityEducation/img__qualityEducation--pitch03.png" data-lightbox="qualityEducation" data-title="Presentation slides breaking down my interpretation of the text and highlighting the elements of the design." alt="presentation slide">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/qualityEducation/img__qualityEducation--pitch03.png" width="100%" alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools"/>
-          </a> 
-          <p class="text--imageCaption">
-            Presentation slides breaking down my interpretation of the text and
-            highlighting the elements of the design.
-          </p>
-          
+
+    <div class="conainer">
+
+      <!-- title -->
+      <div class="row">
+        <div class="col-sm-12 row--pageHeader">
+          <h1 class="heading--pageTitle">Quality Education Book Cover</h1>
         </div>
       </div>
-      
-      
-      <!--
-      classes
-      
-      text--introText
-      text--imageCaption
-      text--description
-       -->
-      
+
+      <!-- subtitle -->
+      <div class="row row--pageContent">
+        <div class="col-sm-12">
+          <div class="row--introText">
+            <p class="text--introduction">
+              Science-Fiction author, Gray Rinehart, commissioned a new cover for the revised
+              twentieth anniversary edition of his book,
+              <span class="span--bookTitle">Quality Education</span>.
+            </p>
+          </div>                
+        </div>
+      </div>
+
+      <!-- hero finished product -->
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="row--projectImage">
+            <a class="img__qualityEducation img__qualityEducation--fullCover has-lightbox" href="../../img/qualityEducation/img__qualityEducation--fullCover.png" data-lightbox="qualityEducation" data-title="Full bleed cover for Quality Education." alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools">
+              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                <img src="../../img/qualityEducation/img__qualityEducation--fullCover.png" width="100%" alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools"/>
+            </a>
+            <p class="text--imageCaption">Full bleed cover for <span class="span--bookTitle">Quality Education</span>.
+            </p>
+          </div>
+        </div>        
+      </div>
+
+      <!-- key skills and description with images -->
+      <div class="row" style="margin-top: 40px;">
+
+        <!-- key skills and description -->
+        <div class="col-sm-12 col-lg-6 ">
+
+          <!-- key  skills -->
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="col__qualityEducation--skillsPlusDescription">
+                <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
+                <ul class="list--keySkills">
+                  <li class="listItem--skill">Graphic Design</li>
+                  <li class="listItem--skill">Visual Development</li>
+                  <li class="listItem--skill">Adobe Photoshop</li>
+                  <li class="listItem--skill">Adobe Illustrator</li>
+                  <li class="listItem--skill">Adobe InDesign</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- description -->
+          <div class="row">
+            <div class="col-md-12 col-md-6">
+              <p class="text--description">
+                I presented designs that explored the author's suggestions along with ideas based on my own interpretations
+                from excerpts of the text and conversational anecdotes.
+                
+                Since the book was going to be present online as well as on store shelves,
+                the final design uses bold text and strong color to catch the eye while quickly scrolling online,
+                while subtle blueprints tell a deeper story and reward exploration for printed copies.
+                The book debuted in the Top 10 on Amazon's Education book list.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- project discovery and process -->
+        <div class="col-sm-12 col-lg-6">
+
+          <!-- discovery -->
+          <div class="row">
+            <div class="col-sm-12 ">
+              <a class=" has-lightbox" href="../../img/qualityEducation/img__qualityEducation--pitch02.png" data-lightbox="qualityEducation" data-title="Presentation slides breaking down my interpretation of the text and highlighting the elements of the design." alt="presentation slide">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                  <img src="../../img/qualityEducation/img__qualityEducation--pitch02.png" width="100%" alt="presentation slide"/>
+              </a>
+            </div>             
+          </div>
+
+          <!-- process -->
+          <div class="row">
+            <div class="col-sm-12 ">
+              <a class=" has-lightbox" href="../../img/qualityEducation/img__qualityEducation--pitch03.png" data-lightbox="qualityEducation" data-title="Presentation slides breaking down my interpretation of the text and highlighting the elements of the design." alt="presentation slide">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                  <img src="../../img/qualityEducation/img__qualityEducation--pitch03.png" width="100%" alt="cover depicting layered technical drawings of different systems juxtaposed with basic tools"/>
+              </a> 
+            </div>             
+          </div> 
+
+          <!-- caption -->
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text--imageCaption">
+                Presentation slides breaking down my interpretation of the text and
+                highlighting the elements of the design.
+              </p>
+            </div>             
+          </div>           
+
+        </div>
+      </div>
+
+
+
+    <!-- done -->
     </div>
+
+
     <div class="row__footer">
       <span class="span--emailContact">christopher.rinehart@cwr.design</span>
       <span class="span--versionCount"></span>

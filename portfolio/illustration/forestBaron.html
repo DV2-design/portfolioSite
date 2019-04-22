@@ -5,14 +5,15 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>CWR Design - Talus Software Logo</title>
   <meta name="description" content="
-      Designing visual identities for ideas.
+      Designing visual identities and interfaces.
       The design portfolio of Christopher Rinehart, a graphic designer and front end developer with experience
       working with SaaS applications and visual brand development.
     ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
-  
+
+  <link rel="stylesheet" href="../../css/framework/mini.css">
   <link rel="stylesheet" href="../../css/base.css">
   <link rel="stylesheet" href="../../css/forestBaron.css">
   <link rel="stylesheet" href="../../css/lightbox.css">
@@ -186,78 +187,123 @@
     </div>
   </div>
   
+
+  <!-- and we start use of mini.css here -->
   <div class="col__content">
     
-    <div class="row--pageHeader">
-      <h1 class="heading--pageTitle">Forest Baron</h1>
-    </div>
-    
-    <div class="row--pageContent">
-      
-      <div class="row--introText">
-        <p class="text--introduction">
-          A fantasy twist on John Singer Sargent's "Antonio Mancini."
-        </p>
+    <div class="container">
+      <!-- title -->
+      <div class="row row--pageHeader">
+        <div class="col-sm-12">
+          <h1 class="heading--pageTitle">Forest Baron</h1>
+        </div>
       </div>
-      
-      <div class="row--projectDescription">
-        <div class="col__forestBaron--image">
-          <a class="img__forestBaron img__forestBaron--final has-lightbox" href="../../img/forestBaron/img--forestBaron.jpg" data-lightbox="forestBaron" data-title="Final digital render of the piece." alt="A portrait of an owl wearing a suit, in the style of traditional portraiture">
-            <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-              <img src="../../img/forestBaron/img--forestBaron.jpg" width="100%" alt="A portrait of an owl wearing a suit, in the style of traditional portraiture"/>
-          </a> 
-          <p class="text--imageCaption">
-            Final digital render of the piece.
+
+      <!-- subtitle -->
+      <div class="row row--pageContent">
+        <div class="col-sm-12">
+          <p class="text--introduction">
+            A fantasy twist on John Singer Sargent's "Antonio Mancini."
           </p>
         </div>
-        <div class="col__forestBaron--description">
-          <div class="row__forestBaron--copy">
-            <p class="text--description">
-              As an exercise, I wanted to create a derivative piece based on a master work&mdash;in this case, John Singer Sargent's
-             "Portrait of Antonio Mancini".
-            </p>
-            <p class="text--description" style="margin-top: 20px;">
-              After I analyzed the source material and completed several anatomy studies,
-              I altered the color scheme and replaced Sargent's original subject with an owl.
-            </p>
+      </div>
+
+
+      <div class="row">
+
+        <!-- finished piece -->
+        <div class="col-sm-12 col-lg-7">
+
+          <!-- final render -->
+          <div class="row">
+            <div class="col-sm-12">
+              <a class="has-lightbox" href="../../img/forestBaron/img--forestBaron.jpg" data-lightbox="forestBaron" data-title="Final digital render of the piece." alt="A portrait of an owl wearing a suit, in the style of traditional portraiture">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                  <img src="../../img/forestBaron/img--forestBaron.jpg" width="100%" alt="A portrait of an owl wearing a suit, in the style of traditional portraiture"/>
+              </a> 
+            </div>
           </div>
-          <div class="row__forestBaron--skills" style="margin-top: 20px;">
-            <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
-            <ul class="list--keySkills">
-              <li class="listItem--skill">Illustration</li>
-              <li class="listItem--skill">Visual Development</li>
-              <li class="listItem--skill">Adobe Photoshop</li>
+
+          <!-- caption -->
+          <div class="row">
+            <div class="col-sm-12">
+              <p class="text--imageCaption">
+                Final digital render of the piece.
+              </p>              
+            </div>
           </div>
-          <div class="row--discoveryImages" style="margin-top: 20px;">
-            <a class="img__forestBaron img__forestBaron--discovery img__forestBaron--discoveryTop has-lightbox" href="../../img/forestBaron/img__forestBaron--sketch.jpg" data-lightbox="forestBaron" data-title="Process images showing the original pencil sketch and various color palettes." alt="Process images showing the original pencil sketch and various color palettes.">
-              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-                <img src="../../img/forestBaron/img__forestBaron--sketch.jpg" width="100%" alt="Process images showing the original pencil sketch and various color palettes."/>
-            </a>
-            <a class="img__forestBaron img__forestBaron--discovery has-lightbox" href="../../img/forestBaron/img__forestBaron--colorComps.jpg" data-lightbox="forestBaron" data-title="Process images showing the original pencil sketch and various color palettes." alt="Process images showing the original pencil sketch and various color palettes.">
-              <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
-                <img src="../../img/forestBaron/img__forestBaron--colorComps.jpg" width="100%" alt="Process images showing the original pencil sketch and various color palettes."/>
-            </a>
-            <p class="text--imageCaption">
-              Process images showing the original pencil sketch and various color palettes.
-            </p>
+        </div>
+
+        <!-- description and process -->
+        <div class="col-sm-12 col-lg-5">
+
+          <!-- descreption -->
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row__forestBaron--copy">
+                <p class="text--description">
+                  As an exercise, I wanted to create a derivative piece based on a master work&mdash;in this case, John Singer Sargent's
+                 "Portrait of Antonio Mancini".
+                </p>
+                <p class="text--description" style="margin-top: 20px;">
+                  After I analyzed the source material and completed several anatomy studies,
+                  I altered the color scheme and replaced Sargent's original subject with an owl.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- key skills -->
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row__forestBaron--skills" style="margin-top: 20px;">
+                <h4 class="heading__list--keyProjectSkills">Key Project Skills/Components</h4>
+                <ul class="list--keySkills">
+                  <li class="listItem--skill">Illustration</li>
+                  <li class="listItem--skill">Visual Development</li>
+                  <li class="listItem--skill">Adobe Photoshop</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- process images -->
+          <div class="row row--discoveryImages">
+            <div class="col-sm-6">
+              <a class="has-lightbox" href="../../img/forestBaron/img__forestBaron--sketch.jpg" data-lightbox="forestBaron" data-title="Process images showing the original pencil sketch and various color palettes." alt="Process images showing the original pencil sketch and various color palettes.">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator.png"/>
+                  <img src="../../img/forestBaron/img__forestBaron--sketch.jpg" width="100%" alt="Process images showing the original pencil sketch and various color palettes."/>
+              </a>
+            </div>
+
+            <div class="col-sm-6">
+              <a class="has-lightbox" href="../../img/forestBaron/img__forestBaron--colorComps.jpg" data-lightbox="forestBaron" data-title="Process images showing the original pencil sketch and various color palettes." alt="Process images showing the original pencil sketch and various color palettes.">
+                <img class="lightbox-icon" src="../../img/lightbox/indicator-forDarkImages.png"/>
+                  <img src="../../img/forestBaron/img__forestBaron--colorComps.jpg" width="100%" alt="Process images showing the original pencil sketch and various color palettes."/>
+              </a>              
+            </div>
+          </div>
+
+          <!-- caption -->
+          <div class="row">
+            <div class="col-sm-12 col-lg-8">
+              <p class="text--imageCaption">
+                Process images showing the original pencil sketch and various color palettes.
+              </p>                          
+            </div>
           </div>
         </div>
       </div>
-      
-      <!--
-      classes
-      
-      text--introText
-      text--imageCaption
-      text--description
-       -->
-      
+    
     </div>
     <div class="row__footer">
       <span class="span--emailContact">christopher.rinehart@cwr.design</span>
       <span class="span--versionCount"></span>
     </div>
   </div>
+  <!-- done! -->
+
+
 </div>
 
 

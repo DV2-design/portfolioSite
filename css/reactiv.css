@@ -13,7 +13,7 @@
 .col__reactiv--skills {
   display: inline-block;
   vertical-align: top;
-  width: 290px;
+  /*width: 290px;*/
 }
 
 .img__reactiv--marketingSlides {
@@ -30,7 +30,7 @@
 
 .col__reactiv--productBrochure {
   display: inline-block;
-  width: calc(880px - 480px);
+  /*width: calc(880px - 480px);*/
   padding-left: 10px;
 }
 

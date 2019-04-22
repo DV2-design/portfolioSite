@@ -12,12 +12,15 @@
 }
 
 .col__caryOil--keyProjectSkills {
-  width: 220px;
+  /*width: 220px;*/
   display: inline-block;
+}
+.col__caryOil--keyProjectSkills .list--keySkills {
+  width: auto;
 }
 
 .col__caryOil--projectProcess {
-  width: calc(880px - 300px);
+  /*width: calc(880px - 300px);*/
   display: inline-block;
   vertical-align: top;
   margin-top: -5px;
@@ -39,7 +42,7 @@
 .img__pix {
   display: block;
   margin: 0 auto;
-  height: 225px;
+  /*height: 225px;*/
 }
 
 .text--description {

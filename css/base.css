@@ -3,7 +3,9 @@
 p {
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.6em;
+  line-height: 1.7em;
+  margin-block-start: 0;
+  margin-bottom: 10px;
 }
 
 body {
@@ -145,10 +147,12 @@ body {
   font-size: 42px;
   margin: 0;
   top: 0;
-  height: 110px;
+  /*height: 110px;*/
   z-index: 499;
-  width: 855px;
-  background-color: #FAFAFA;
+  /*width: 855px;*/
+  background-color: #FAFAFAf2;
+  padding: 0 0 18px 0;
+  width: 996px;
 }
 
 .row--pageContent {
@@ -160,6 +164,7 @@ body {
   font-size: 42px;
   margin: 0;
   margin-top: 18px;
+  margin-left: -4px;
 }
 
 .col--introImg {
@@ -190,7 +195,7 @@ body {
 
 
 .div--homeColumn {
-  width: calc(100% - 250px);
+  width: calc(100% - 200px);
   display: block;
   margin: 0 auto;
   text-align: justify;
@@ -211,7 +216,7 @@ body {
 
 /*imageCaption needs to match the width and margins of their paired image*/
 .text--imageCaption {
-  width: 640px;
+  /*width: 640px;*/
   font-style: italic;
   /*margin-top: 5px;*/
   font-size: 14px;
@@ -229,13 +234,13 @@ body {
  */
 .row__footer {
   position: fixed;
-  width: 880px; /* TODO: change width of footer */
+  width: calc(1280px - 266px);
   bottom: 0;
-  margin-left: -25px;
+  margin-left: 0;
   padding-top: 10px;
   padding-bottom: 11px;
-  /*background-color: #ffffff;*/
-  background-color: rgba(250,250,250,0.7);
+  background-color: #FAFAFAf2;
+  /*background-color: rgba(250,250,250,0.7);*/
   z-index: 500;
   /*box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.02);*/
 }
@@ -261,21 +266,22 @@ body {
 /*
  *  project description
  */
-.text--description {
-  margin: 0;
-  text-align: justify;
-}
+/*.text--description {*/
+  /*margin: 0;*/
+  /*text-align: justify;*/
+/*}*/
 
 .heading__list--keyProjectSkills {
   margin: 0;
   /*line-height: 25px;*/
   font-weight: 500;
   font-size: 400;
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .list--keySkills {
-  width: 160px;
+  /*width: 160px;*/
   font-weight: 300;
   list-style-type: square;
   line-height: 1.75em;
@@ -373,7 +379,8 @@ body {
   top: 10px;
   right: 10px;
   opacity: 0;
-  transition-duration: 0.5s;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .has-lightbox:hover .lightbox-icon  {
@@ -381,6 +388,7 @@ body {
 }
 
 .has-lightbox {
+  display: block;
   position: relative;
 }
 
