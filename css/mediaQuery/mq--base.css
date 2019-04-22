@@ -12,7 +12,7 @@
   }
 
   .row__footer {
-    width: 700px;
+    width: calc(900px - 200px);
   }
 
 }
