@@ -234,7 +234,7 @@ body {
  */
 .row__footer {
   position: fixed;
-  width: calc(1280px - 245px);
+  width: calc(1280px - 266px);
   bottom: 0;
   margin-left: 0;
   padding-top: 10px;
