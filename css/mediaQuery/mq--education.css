@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1260px) {
 
   .col__qualityEducation--skillsPlusDescription {
     width: 300px;
@@ -34,7 +34,7 @@
 @media screen and (max-width: 740px) {
 
   .row--pageContent {
-    padding: 0 25px;
+    /*padding: 0 25px;*/
   }
 
   .col__qualityEducation--skillsPlusDescription {
