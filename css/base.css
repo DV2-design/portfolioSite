@@ -234,9 +234,9 @@ body {
  */
 .row__footer {
   position: fixed;
-  width: 880px; /* TODO: change width of footer */
+  width: calc(1280px - 245px);
   bottom: 0;
-  margin-left: -25px;
+  margin-left: 0;
   padding-top: 10px;
   padding-bottom: 11px;
   background-color: #FAFAFAf2;
