@@ -7,7 +7,7 @@
 }
 
 .img__qualityEducation--fullCover {
-  width: 90%;
+  width: 100%;
   display: block;
   margin: 0 auto;
   box-shadow: 0 0 35px hsla(0, 0%, 0%, 0.1);
@@ -35,4 +35,9 @@
 
 .img__qualityEducation--pitch.img__qualityEducation--designDetails {
   margin-bottom: 0;
+}
+
+.row--projectImage {
+  max-width: 720px;
+  margin: 0 auto;
 }
