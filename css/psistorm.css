@@ -5,7 +5,7 @@
 .img__psistorm--jerseyMockup {
   display: block;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .col__psistorm--skillsAndDescription {
@@ -50,4 +50,10 @@
 
 .queryDiv__psistorm--skillsAndImages {
   display: none;
+}
+
+
+.row--projectImage {
+  max-width: 720px;
+  margin: 0 auto;
 }
