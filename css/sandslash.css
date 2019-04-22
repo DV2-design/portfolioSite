@@ -35,3 +35,9 @@
 .queryCol__sandslash--image {
   display: none;
 }
+
+.row__sandslash--copy .col-sm-12,
+.col-sm-12.row__sandslash--skills {
+  padding-left: 0;
+  padding-right: 0;
+}

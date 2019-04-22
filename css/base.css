@@ -213,7 +213,7 @@ body {
 
 /*imageCaption needs to match the width and margins of their paired image*/
 .text--imageCaption {
-  width: 640px;
+  /*width: 640px;*/
   font-style: italic;
   /*margin-top: 5px;*/
   font-size: 14px;
@@ -278,7 +278,7 @@ body {
 }
 
 .list--keySkills {
-  width: 160px;
+  /*width: 160px;*/
   font-weight: 300;
   list-style-type: square;
   line-height: 1.75em;

@@ -3,15 +3,15 @@
 @media screen and (max-width: 1100px) {
 
   .col__caryOil--keyProjectSkills {
-    width: 220px;
+    /*width: 220px;*/
   }
 
   .col__caryOil--projectProcess {
-    width: calc(100% - 230px);
+    /*width: calc(100% - 230px);*/
   }
 
   .img__pix {
-    height: 195px;
+    /*height: 195px;*/
   }
 
 }
@@ -32,7 +32,7 @@
   }
 
   .img__pix {
-    height: 140px;
+    /*height: 140px;*/
   }
 
 }
@@ -45,7 +45,7 @@
   }
 
   .col__caryOil--projectProcess {
-    width: calc(100% - 230px);
+    /*width: calc(100% - 230px);*/
     margin-top: 0;
   }
 
@@ -63,7 +63,7 @@
 @media screen and (max-width: 570px) {
 
   .img__pix {
-    height: 120px;
+    /*height: 120px;*/
   }
 
 }

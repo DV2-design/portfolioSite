@@ -1,9 +1,13 @@
-
+@media screen and (min-width: 1100px) {
+  .psi_offset {
+    margin-left:47px;
+  }
+}
 
 @media screen and (max-width: 1100px) {
 
   .col__psistorm--iterations {
-    display: none;
+    /*display: none;*/
   }
 
   .col__psistorm--skillsAndDescription {
@@ -12,7 +16,7 @@
 
   .col__psistorm--projectSkills,
   .col__psistorm--cutJersey {
-    display: none;
+    /*display: none;*/
   }
   .queryDiv__psistorm--skillsAndImages {
     display: block;
@@ -38,7 +42,9 @@
 }
 
 @media screen and (max-width: 740px) {
-
+  .psi_offset {
+    margin-left:20px;
+  }
 
 
 }

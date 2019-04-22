@@ -25,6 +25,9 @@
   .col__sandslash--image {
     display: none;
   }
+  .sand_caption {
+    margin-top:20px;
+  }
 
 }
 

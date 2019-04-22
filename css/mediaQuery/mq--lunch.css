@@ -8,9 +8,9 @@
 
 @media screen and (max-width: 920px) {
 
-  .row__lunch--sample {
+  /*.row__lunch--sample {
     display: none;
-  }
+  }*/
 
   .queryRow__lunch--sample {
     display: block;
@@ -30,13 +30,17 @@
 
 @media screen and (max-width: 740px) {
 
+  .img__lunch {
+    margin-bottom: 20px;
+  }
+
   .row__lunch--sample {
     display: block;
   }
 
-  .queryRow__lunch--sample {
+  */.queryRow__lunch--sample {
     display: none;
-  }
+  }/*
 
   .col__lunch--imageContainer {
     width: 31%;
@@ -47,9 +51,9 @@
 
 @media screen and (max-width: 640px) {
 
-  .row__lunch--sample {
+  /*.row__lunch--sample {
     display: none;
-  }
+  }*/
 
   .queryRow__lunch--sample {
     display: block;

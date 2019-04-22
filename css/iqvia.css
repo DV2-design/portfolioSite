@@ -4,7 +4,7 @@
 
 .div--iqviaImgRowOne {
   display: block;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 40px;
 }
 
@@ -30,7 +30,7 @@
 }
 
 .col__iqvia--projectDescription {
-  width: calc(880px - 280px);
+  /*width: calc(880px - 280px);*/
   margin-left: 10px;
   display: inline-block;
   vertical-align: top;
