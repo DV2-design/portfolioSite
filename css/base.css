@@ -192,7 +192,7 @@ body {
 
 
 .div--homeColumn {
-  width: calc(100% - 250px);
+  width: calc(100% - 200px);
   display: block;
   margin: 0 auto;
   text-align: justify;
