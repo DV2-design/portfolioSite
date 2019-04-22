@@ -42,6 +42,10 @@
     /*padding: 0 25px;*/
   }
 
+  .container_graphIcons-heroes {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media screen and (max-width: 600px) {

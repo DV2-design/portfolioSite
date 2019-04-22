@@ -6,7 +6,7 @@
 
 .img__graphIcons--png,
 .img__graphIcons--svg {
-  width: 320px;
+  width: 100%;
   display: block;
   margin: 0 auto;
 }
@@ -54,4 +54,9 @@
 }
 .queryDiv__tablet--secondaryText {
   display: none;
+}
+
+.container_graphIcons-heroes {
+  max-width: 440px;
+  margin: 0 auto;
 }
